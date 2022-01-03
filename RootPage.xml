@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.642">
+    <testcase classname="Swiggy Application Root Page features" name="Validate various root page features of Swiggy application" time="12.375">
+        <system-out>
+            <![CDATA[Given user is on root page of swiggy application............................passed
+When user tries to see the title of the page................................passed
+Then page title should be "Order food online from India's best food delivery service. Order from restaurants near you".passed
+When user tries to see the login and sign in link...........................passed
+Then login and sign in link should be visible with the text "Login" and "Sign up".passed
+When user tries to see the delivery location text box & find food button....passed
+Then delivery location text box should be visible with placed holder value "Enter your delivery location".passed
+And find food button should be visible with the text "FIND FOOD"............passed
+When user tries to see the information of popular <cities> in india.........passed
+Then system should be showing the links with below city name................passed
+When user enters the location "Kumbakonam" in the search text box...........passed
+Then system should list the possible locations as a drop down list..........passed
+When user chooses the desired location "Kumbakonam Temples, Kanmani Devi Nagar, Kumbakonam, Tamil Nadu, India" from the drop down list.passed
+Then system should navigate the user to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

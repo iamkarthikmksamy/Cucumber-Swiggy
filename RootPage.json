@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-03T09:32:21.522Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2347352900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate various root page features of Swiggy application",
+        "description": "",
+        "id": "swiggy-application-root-page-features;validate-various-root-page-features-of-swiggy-application",
+        "after": [
+          {
+            "result": {
+              "duration": 650553000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4432117500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15603900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user tries to see the title of the page",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7837200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page title should be \"Order food online from India\u0027s best food delivery service. Order from restaurants near you\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Order food online from India\u0027s best food delivery service. Order from restaurants near you\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65709500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user tries to see the login and sign in link",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_login_and_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48037000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login and sign in link should be visible with the text \"Login\" and \"Sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Sign up\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.login_and_sign_in_link_should_be_visible_with_the_text_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46090300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user tries to see the delivery location text box \u0026 find food button",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_delivery_location_text_box_find_food_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26651000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "delivery location text box should be visible with placed holder value \"Enter your delivery location\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter your delivery location\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.delivery_location_text_box_should_be_visible_with_placed_holder_value(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27982800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "find food button should be visible with the text \"FIND FOOD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FIND FOOD\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.find_food_button_should_be_visible_with_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291318200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user tries to see the information of popular \u003ccities\u003e in india",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_information_of_popular_cities_in_india()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5998700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "system should be showing the links with below city name",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.system_should_be_showing_the_links_with_below_city_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Ahmedabad"
+                ]
+              },
+              {
+                "cells": [
+                  "Bangalore"
+                ]
+              },
+              {
+                "cells": [
+                  "Chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "Delhi"
+                ]
+              },
+              {
+                "cells": [
+                  "Gurgaon"
+                ]
+              },
+              {
+                "cells": [
+                  "Hyderabad"
+                ]
+              },
+              {
+                "cells": [
+                  "Kolkata"
+                ]
+              },
+              {
+                "cells": [
+                  "Mumbai"
+                ]
+              },
+              {
+                "cells": [
+                  "Pune"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113266200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters the location \"Kumbakonam\" in the search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumbakonam\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.user_enters_the_location_in_the_search_text_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2061061900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "system should list the possible locations as a drop down list",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.system_should_list_the_possible_locations_as_a_drop_down_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79557700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user chooses the desired location \"Kumbakonam Temples, Kanmani Devi Nagar, Kumbakonam, Tamil Nadu, India\" from the drop down list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumbakonam Temples, Kanmani Devi Nagar, Kumbakonam, Tamil Nadu, India\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.user_chooses_the_desired_location_from_the_drop_down_list(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2010381000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "system should navigate the user to restaurants page with the url \"https://www.swiggy.com/restaurants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.swiggy.com/restaurants\"",
+                  "offset": 65
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.system_should_navigate_the_user_to_restaurants_page_with_the_url(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Application Root Page features",
+    "description": "",
+    "id": "swiggy-application-root-page-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RootPage.feature",
+    "tags": []
+  }
+]
